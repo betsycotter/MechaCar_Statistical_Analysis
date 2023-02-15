@@ -30,3 +30,22 @@ Summary by lot:
 
 <img width="490" alt="Image 2 2" src="https://user-images.githubusercontent.com/116031639/219136443-c4ec8dff-38a1-4bd3-bf5f-cc7c22bcbc89.png">
 
+## T-Tests on Suspension Coils
+
+Our first test reviewed the overall data with the population mean of PSI as 1,500. In this data set, the p-value of 0.06028 is higher than 0.05, so we fail to reject the null hypothesis because there is not sufficient evidence. We can confirm our two samples are not statistically different. 
+
+<img width="424" alt="Image 3 1" src="https://user-images.githubusercontent.com/116031639/219160021-2ba127b0-9ced-4841-9def-0ffb9446b148.png">
+
+Our next group of tests reviewed the mean PSI of each lot against the population PSI mean of 1,500. 
+
+For Lot 1, we found the following p-value of 1, which is higher than 0.05. As a result, we fail to reject the null hypothesis. See below: 
+
+<img width="406" alt="Image 3 2" src="https://user-images.githubusercontent.com/116031639/219160066-999ca1f3-b298-4d4b-91d3-91fff3649c13.png">
+
+For Lot 2 we found the following p-value of 0.6072, which is higher than 0.05. As a result, we fail to reject the null hypothesis. See below:
+
+<img width="413" alt="Image 3 3" src="https://user-images.githubusercontent.com/116031639/219160161-2476fd12-0d36-411b-b01b-4d19de84cf99.png">
+
+For Lot 3 we found the following p-value of 0.04168, which is lower than 0.05. As a result, we reject the null hypothesis. See below:  
+
+<img width="421" alt="Image 3 4" src="https://user-images.githubusercontent.com/116031639/219160261-f80f488f-30d4-4b78-bcb3-f6010ca9adab.png">
