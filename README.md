@@ -49,3 +49,21 @@ For Lot 2 we found the following p-value of 0.6072, which is higher than 0.05. A
 For Lot 3 we found the following p-value of 0.04168, which is lower than 0.05. As a result, we reject the null hypothesis. See below:  
 
 <img width="421" alt="Image 3 4" src="https://user-images.githubusercontent.com/116031639/219160261-f80f488f-30d4-4b78-bcb3-f6010ca9adab.png">
+
+## Study Design: MechaCar vs Competition
+
+The next step in our analysis is to compare MechaCar with our competitors. With rising costs for fuel, we will test our average MPG, as consumers are interested in saving money. In addition to saving money at the fuel pump, we will test if the price of the car is related to average MPG. For this test, we will review the information for the following: 
+
+Metrics: 
+- Average MPG
+- Car prices 
+
+Our hypothesis is: If average MPG is higher, then the price of the car will be lower. 
+Null hypothesis: If average MPG is higher, price of the car will not be affected. 
+
+For this test, we will use the multiple linear regression because it will tell us if the metrics are correlated. We will need the following information: 
+
+- Car company - categorical data
+- Average MPG - numerical data
+- Car prices - numerical data
+
